@@ -1,0 +1,23 @@
+name: EAC Theme
+type: theme
+description: Theme for Drupal 8 based on OpenEuropa theme for DG EAC.
+package: DGEAC
+core: 8.x
+base theme: oe_theme
+libraries:
+  - oe_theme/editor
+  - oe_theme/external_svg
+  - oe_theme/component_library_ec
+
+dependencies:
+  - openeuropa/oe_theme
+
+# Regions.
+regions:
+  site_top_bar: "Site top bar"
+  site_header: "Site header"
+  site_header_secondary: "Site header secondary"
+  page_header: "Page header"
+  navigation: "Navigation"
+  content: "Content"
+  footer: "Footer"
