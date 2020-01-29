@@ -1,0 +1,16 @@
+{
+  "name": "EAC Theme",
+  "description": "Theme for Drupal 8 based on OpenEuropa theme for DG EAC.",
+  "type": "drupal-theme",
+  "license": "EUPL-1.2",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "openeuropa/oe_theme": "~2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Drupal\\oe_theme\\": "./src/"
+    }
+  }
+}
